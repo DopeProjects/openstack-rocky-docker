@@ -1,10 +1,4 @@
 #!/bin/bash
 
-if [ "$(pwd)" != "/root/openstack-rocky-docker" ]; then
-   echo 'You are in wrong dir, This project is designed to be in /root/ dir!';
-   echo 'Execute this command and start again : cd /root/; git clone https://github.com/theraw/openstack-rocky-docker.git';
-   exit 1
-fi
-
-d=/root/openstack-rocky-docker
-. $d/prepare/first.sh
+d=/opt/rocky
+. $d/prepare/first
