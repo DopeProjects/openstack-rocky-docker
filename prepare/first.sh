@@ -13,6 +13,8 @@ check() {
 }
 
 pull() {
+          clear
           docker pull ubuntu:18.10
+          clear
+          docker images
 }
-
