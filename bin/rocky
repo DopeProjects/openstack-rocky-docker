@@ -1,0 +1,4 @@
+#!/bin/bash
+
+d=/opt/rocky
+. $d/prepare/first
