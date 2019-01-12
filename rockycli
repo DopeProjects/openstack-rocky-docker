@@ -7,4 +7,4 @@ if [ "$(pwd)" != "/root/openstack-rocky-docker" ]; then
 fi
 
 d=/root/openstack-rocky-docker
-. $d/first.sh
+. $d/prepare/first.sh
