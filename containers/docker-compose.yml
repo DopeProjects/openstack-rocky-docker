@@ -1,0 +1,28 @@
+version: '2'
+services:
+  mysql:
+    ports:
+     - "3306:3306"
+    image: "theraw/rocky:mysql"
+    privileged: true
+    networks:
+      rocky_net:
+        ipv4_address: 172.69.0.70
+
+  dashboard:
+    image: "default"
+    privileged: true
+    networks:
+      rocky_net:
+        ipv4_address: 172.69.0.72
+
+networks:
+  rocky_net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.enable_ipv6: "false"
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.69.0.0/16
+        gateway: 172.69.0.1
