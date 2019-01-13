@@ -6,5 +6,5 @@ services:
     image: "theraw/rocky:mysql"
     privileged: true
     networks:
-      static-network:
+      rocky:
         ipv4_address: 172.69.0.60
