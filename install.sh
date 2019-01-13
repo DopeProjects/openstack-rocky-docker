@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -Rf /opt/rocky
+rm -Rf /bin/rocky
 mkdir -p /opt/rocky
 mkdir -p /opt/rocky/prepare
 curl -s https://raw.githubusercontent.com/DopeProjects/openstack-rocky-docker/master/bin/rocky > /bin/rocky
