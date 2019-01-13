@@ -14,7 +14,6 @@ check() {
 
 pull() {
           clear
-          docker network create --subnet=172.69.0.0/16 rocky
           docker pull ubuntu:18.10
           docker pull theraw/rocky:mysql
           clear
