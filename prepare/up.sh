@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mysqlup() {
+up() {
     mkdir -p /root/workdir/
     docker pull theraw/rocky:mysql
     cd /root/workdir/
