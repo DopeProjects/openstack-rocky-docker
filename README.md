@@ -10,4 +10,4 @@ Is no needed to git clone unless you wanna PR, To install and use this code you 
 **```curl -s -LA "Rocky" "http://bit.ly/RockyCli" | bash -s```**
 
 
-#1 . Some things may aren't exposed to public.. i was doing tests just on LAN
+#1 . Isn't Totally Ready.
