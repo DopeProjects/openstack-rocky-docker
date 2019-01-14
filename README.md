@@ -7,7 +7,7 @@ I don't think will be able to install nova into a docker container so i may crea
 
 Is no needed to git clone unless you wanna PR, To install and use this code you simply need the CLI 
 
-**```curl -s -LA "Raws InS" "http://bit.ly/RockyCli" | bash -s```**
+**```curl -s -LA "Rocky" "http://bit.ly/RockyCli" | bash -s```**
 
 
 #1 . Some things may aren't exposed to public.. i was doing tests just on LAN
